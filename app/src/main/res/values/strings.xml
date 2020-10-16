@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LacTempérature</string>
+    <string name="saisirreleve">saisir un releve</string>
+    <string name="afficherreleve">afficher un releve</string>
+    <string name="moyennereleve">moyenne des releves</string>
+</resources>
