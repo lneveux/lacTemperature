@@ -44,30 +44,6 @@
         tools:layout_editor_absoluteY="40dp" />
 
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="60dp"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <EditText
-            android:id="@+id/releveTemperature"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="°C" />
-
-    </LinearLayout>
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
@@ -80,22 +56,50 @@
         android:layout_height="wrap_content" />
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="620dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/releveTemperature"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°C" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="170dp"
+        android:layout_marginBottom="500dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
             android:id="@+id/releveJour"
-            android:layout_width="132dp"
+            android:layout_width="76dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/releveHeure"
-            android:layout_width="134dp"
+            android:layout_width="76dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
@@ -105,7 +109,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="280dp"
+        android:layout_marginBottom="380dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -116,7 +122,7 @@
 
         <EditText
             android:id="@+id/releveLac"
-            android:layout_width="wrap_content"
+            android:layout_width="122dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
@@ -126,9 +132,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="450dp"
+        android:layout_marginBottom="200dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="20dp">
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-40dp">
 
         <TextView
             android:id="@+id/textView5"
@@ -138,7 +147,7 @@
 
         <EditText
             android:id="@+id/releveGPS"
-            android:layout_width="183dp"
+            android:layout_width="133dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />

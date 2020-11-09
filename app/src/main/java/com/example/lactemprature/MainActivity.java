@@ -22,16 +22,27 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 switch (v.getId()) {
                     case R.id.saisirReleve:
-                        Intent intent1 = new Intent(MainActivity.this, saisirreleve.class);
+                        Intent intent1 = new Intent(MainActivity.this, saisirReleveActivity.class);
                         startActivity(intent1);
                         break;
                     case R.id.afficherReleve:
-                        Intent intent2 = new Intent(MainActivity.this, afficherreleve.class);
+                        Intent intent2 = new Intent(MainActivity.this, afficherReleveActivity.class);
                         startActivity(intent2);//on affecte au bouton l'écouteurbtnNewReleve.setOnClickListener(ecouteur);btnListeClients.setOnClickListener(ecouteur);
                     case R.id.moyenneReleve:
-                        Intent intent3 = new Intent( MainActivity.this, moyennereleve.class);
+                        Intent intent3 = new Intent(MainActivity.this, moyenneReleveActivity.class);
                         startActivity(intent3);
                         break;
 
-                };
+                }
+
+
+            }
+
+            ;
+        };
+        saisirreleve.setOnClickListener(ecouteur);
+        afficherreleve.setOnClickListener(ecouteur);
+        moyennereleve.setOnClickListener(ecouteur);
+
     }
+}

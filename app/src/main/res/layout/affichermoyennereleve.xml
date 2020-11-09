@@ -87,8 +87,8 @@
         android:id="@+id/retourAcceuil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="670dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="396dp"
         android:text="retour"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -97,8 +97,8 @@
         android:id="@+id/confirm_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="310dp"
-        android:layout_marginTop="670dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="396dp"
         android:text="valider"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

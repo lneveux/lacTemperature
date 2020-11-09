@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".saisirReleveActivity"></activity>
+        <activity android:name="afficherReleveActivity"></activity>
+        <activity android:name="moyenneReleveActivity"></activity>
     </application>
 
 </manifest>
